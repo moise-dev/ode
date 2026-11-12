@@ -65,6 +65,13 @@ By the end of this module, learners should be able to:
 - States after release: parked (data source gone, may return), deprecated, retired
 - Transitions and their evidence: validation results, time in production, health signals, review outcomes
 
+**Out of scope**
+
+- Lifecycle phases at overview level (01 Detection Engineering Foundations)
+- Staged rollout and shadow mode (08 Deployment, Tuning & Operations)
+- Versioning and change history for detections (07 Detection-as-Code)
+- Deciding whether to fix, park, or retire a detection (Lesson 8)
+
 ### 3. Data health: sources and fields
 
 **Learning objectives**
@@ -203,6 +210,13 @@ By the end of this module, learners should be able to:
 - Recording the decision: reason, replacement, date, and history
 - Parked detections: marked inactive with the reason recorded
 - Updating a detection: when a change is significant enough to send it back to a testing state until it is revalidated, and when it is not (Lesson 2)
+
+**Out of scope**
+
+- Writing or rewriting detection logic for a fix (05 Detection Development)
+- Designing the tests used to revalidate an updated detection (06 Testing & Validation)
+- Version control and removing rules through the deployment pipeline (07 Detection-as-Code)
+- Deciding whether a detection is stale (Lesson 7)
 
 ## Boundaries
 
